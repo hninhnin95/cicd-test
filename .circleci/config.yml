@@ -87,7 +87,7 @@ jobs:
           name: Deploy!
           shell: /bin/bash
           command: |
-            cd elasticbeanstlk
+            cd elasticbeanstalk
             eb deploy Railscicd-env
 
 workflows:
